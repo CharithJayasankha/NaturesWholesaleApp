@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteCustomer">
+   <children>
+      <Label layoutX="63.0" layoutY="45.0" text="Delete Customer">
+         <font>
+            <Font name="Gabriola" size="31.0" />
+         </font>
+      </Label>
+      <TextField focusTraversable="false" layoutX="50.0" layoutY="102.0" prefHeight="25.0" prefWidth="216.0" promptText="ID">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="50.0" layoutY="139.0" prefHeight="25.0" prefWidth="216.0" promptText="Gender">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="50.0" layoutY="180.0" prefHeight="25.0" prefWidth="216.0" promptText="Name">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="50.0" layoutY="217.0" prefHeight="25.0" prefWidth="216.0" promptText="Address">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <TextField focusTraversable="false" layoutX="50.0" layoutY="254.0" prefHeight="25.0" prefWidth="216.0" promptText="Contact Number">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <DatePicker focusTraversable="false" layoutX="50.0" layoutY="296.0" prefHeight="25.0" prefWidth="216.0" />
+      <Button layoutX="202.0" layoutY="342.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="ADD" />
+      <ImageView fitHeight="298.0" fitWidth="274.0" layoutX="300.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/fruit%20shop-rafiki.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

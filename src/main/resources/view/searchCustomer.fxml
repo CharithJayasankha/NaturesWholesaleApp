@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchCustomer">
+   <children>
+      <ImageView fitHeight="293.0" fitWidth="299.0" layoutX="301.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/fruit%20shop-cuate.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="50.0" text="Search Customer">
+         <font>
+            <Font name="Gabriola" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchText" focusTraversable="false" layoutX="49.0" layoutY="121.0" prefHeight="25.0" prefWidth="217.0" promptText="Search ID">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <Button focusTraversable="false" layoutX="205.0" layoutY="168.0" mnemonicParsing="false" onAction="#searchBtn" prefHeight="25.0" prefWidth="59.0" text="Search" />
+   </children>
+</AnchorPane>
